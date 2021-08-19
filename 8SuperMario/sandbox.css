@@ -1,0 +1,56 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+
+   .mario-block {
+       display: inline-block;
+       position: relative;
+       margin: 80px auto;
+       width: 16em;
+       height: 16em;
+   }
+
+   .mario {
+       display: block;
+       width: 1em;
+       height: 1em;
+       background-color: #e7eef1;
+       box-shadow:  0em 0em #e7eef1,
+                    1em 0em #e7eef1,
+                    2em 0em #e7eef1,
+                    3em 0em #e7eef1,
+                    4em 0em #e7eef1,
+                    5em 0em #e7eef1,
+                    6em 0em #e7eef1,
+                    7em 0em #e7eef1,
+                    8em 0em #e7eef1,
+                    9em 0em #e7eef1,
+                    10em 0em #e7eef1,
+                    11em 0em #e7eef1,
+                    12em 0em #e7eef1,
+                    13em 0em #e7eef1,
+                    14em 0em #e7eef1,
+                    15em 0em #e7eef1,
+                    
+                    0em 1em #e7eef1,
+                    1em 1em #e7eef1,
+                    2em 1em #e7eef1,
+                    3em 1em #e7eef1,
+                    4em 1em #e7eef1,
+
+                    5em 1em red,
+                    6em 1em red,
+                    7em 1em red,
+                    8em 1em red,
+                    9em 1em red,
+
+                    10em 1em #e7eef1,
+                    10em 1em #e7eef1,
+                    
+                    10em 1em #e7eef1,
+
+
+;
+   }
