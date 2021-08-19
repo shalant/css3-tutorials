@@ -36,7 +36,7 @@
 
 .layout2 header::after {
     display: table;
-    content: '';
+    content: "";
     clear: both;
 }
 
@@ -58,4 +58,66 @@
 
 .layout2 footer {
     clear: both;
+}
+
+/* MODERN LAYOUT #3 */
+
+.layout3 header .logo {
+    width: 20%;
+    float: right;
+    margin: 0;
+}
+
+.layout3 header nav {
+    width: 78%;
+    float: left;
+    margin: 0;
+}
+
+.layout3 header::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.layout3 article {
+    width: 32%;
+    float: left;
+    margin: 0 2% 0 0;
+}
+
+/* clear margin of last article to allow it to fit within layout */
+
+.layout3 article:last-child {
+    margin: 0;
+}
+
+.layout3 .articles::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.layout3 footer {
+    clear: both;
+}
+
+/* SIMPLE MEDIA QUERIES FOR RESPONSIVE LAYOUTS */
+
+@media screen and (max-width: 768px) {
+    .layout1 article,
+    .layout1 aside,
+    .layout2 header .logo,
+    .layout2 header nav,
+    .layout2 article,
+    .layout2 aside.sidenav,
+    .layout2 aside.sidebar,
+    .layout3 article,
+    .layout3 aside,
+    .layout3 header .logo,
+    .layout3 header nav {
+        float: none;
+        width: 100%;
+        margin: 0 0 2%;
+    }
 }
